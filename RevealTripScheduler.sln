@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28306.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0907D480-3D69-4DE8-8397-30A5B910E5A1}"
+	ProjectSection(SolutionItems) = preProject
+		src\ReadMe.txt = src\ReadMe.txt
+		src\RevealTripScheduler.postman_collection.json = src\RevealTripScheduler.postman_collection.json
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DAL", "src\DAL\DAL.csproj", "{184FA2E2-4B93-4B4D-9C2C-1AF8BE0414C3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RevealTripScheduler", "src\RevealTripScheduler\RevealTripScheduler.csproj", "{1BC5F4DB-7B8D-495F-80BF-CFF780762DAE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RevealUnitTests", "src\RevealUnitTests\RevealUnitTests.csproj", "{BCBAC83F-D51C-406A-8CF5-821A679C5FFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{184FA2E2-4B93-4B4D-9C2C-1AF8BE0414C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{184FA2E2-4B93-4B4D-9C2C-1AF8BE0414C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{184FA2E2-4B93-4B4D-9C2C-1AF8BE0414C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{184FA2E2-4B93-4B4D-9C2C-1AF8BE0414C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BC5F4DB-7B8D-495F-80BF-CFF780762DAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BC5F4DB-7B8D-495F-80BF-CFF780762DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BC5F4DB-7B8D-495F-80BF-CFF780762DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BC5F4DB-7B8D-495F-80BF-CFF780762DAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCBAC83F-D51C-406A-8CF5-821A679C5FFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCBAC83F-D51C-406A-8CF5-821A679C5FFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCBAC83F-D51C-406A-8CF5-821A679C5FFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCBAC83F-D51C-406A-8CF5-821A679C5FFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61D0E341-F5F6-46E8-A8E5-FF3104DB73D8}
+	EndGlobalSection
+EndGlobal
